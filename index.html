@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+
+<body>
+  <h3 id='alert'></h3>
+  <div class="container">
+
+    <canvas id="canvas"></canvas>
+
+    <div class="controller">
+      <div class="controller-container">
+
+        <div class="up-arrow">
+          <a id='up' onclick="moveUp()"><span class="ion-arrow-up-a"></span></a>
+        </div>
+
+        <div class="left-right-arrows">
+
+          <a id='left' onclick="moveLeft()"><span class="ion-arrow-left-a"></span></a>
+          <a id='down' onclick="moveDown()"><span class="ion-arrow-down-a"></span></a>
+          <a id='right' onclick="moveRight()"><span class="ion-arrow-right-a"></span></a>
+        </div>
+
+
+      </div>
+
+      <div class="btn">
+        <button onclick="reset()">Reset</button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
